@@ -29,9 +29,15 @@ table {
 }
 
 
-.wrapper {
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px;
+  
+  .cells{
+      text-align: Center;
+      background-color: rgb(0, 255, 98);
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75x 75px;
+    border-style: double;
+    margin-bottom:200px;
+    padding:0px;
+
   }
