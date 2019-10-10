@@ -1,1 +1,37 @@
-/*test*/
+h1 {
+
+    text-align: center;
+}
+
+td {
+
+    width: 100px;
+    height: 100px;
+}
+
+table {
+
+    margin: 100px auto;
+}
+
+/*vertical*/
+.columns {
+
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+
+/*horizontal*/
+.rows {
+
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+
+.wrapper {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+  }
