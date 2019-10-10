@@ -1,1 +1,3 @@
-console.log("It worked I was able to transfer it!");
+function myFunction(){
+    document.getElementById("demo").innerHTML = "Hello World!";
+}
