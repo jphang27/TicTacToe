@@ -14,15 +14,6 @@ let score = 0; //keep track of scoring
 let numOfMoves = 0; //check number of moves played
 let turns = 0; //see if it's Player 1 or Player 2 turn.
 
-// setPlayers(playerNum, token){
-//     if(playerNum == 1){
-//         this.player1 = token;
-//     }
-//     else{
-//         this.player2 = token;
-//     }
-// }
-
 /************************************************************************ */
 /***************************TESTING************************************** */
 function myFunction() {
