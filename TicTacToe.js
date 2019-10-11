@@ -27,6 +27,12 @@ function myFunction() {
 /************************************************************************ */
 /************************************************************************ */
 //Used for testing
-// function myFunction(){
-//     document.getElementById("demo").innerHTML = "X";
-// }
+function myFunction(){
+    if(document.getElementById("1").innerHTML === "X"){
+      document.getElementById("1").innerHTML = "O"
+    }
+    else{
+      document.getElementById("1").innerHTML = "X"
+    }
+    // document.getElementById("1").innerHTML = "X";
+}
