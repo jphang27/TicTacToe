@@ -28,11 +28,19 @@ function myFunction() {
 /************************************************************************ */
 //Used for testing
 function myFunction(){
-    if(document.getElementById("1").innerHTML === "X"){
-      document.getElementById("1").innerHTML = "O"
+  for(let i = 1; i <= 9; i++){
+    if(document.getElementById(i).innerHTML === "X"){
+      document.getElementById(i).innerHTML = "O"
     }
     else{
-      document.getElementById("1").innerHTML = "X"
+      document.getElementById(i).innerHTML = "X"
     }
+  }
+    // if(document.getElementById("1").innerHTML === "X"){
+    //   document.getElementById("1").innerHTML = "O"
+    // }
+    // else{
+    //   document.getElementById("1").innerHTML = "X"
+    // }
     // document.getElementById("1").innerHTML = "X";
 }
